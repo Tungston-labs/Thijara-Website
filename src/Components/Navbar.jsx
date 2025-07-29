@@ -1,0 +1,186 @@
+// import React, { useState } from 'react';
+// import {
+//   NavbarContainer,
+//   Logo,
+//   NavLinks,
+//   NavLinkItem,
+//   NavLink,
+//   HighlightBar,
+//   Hamburger,
+//   MobileMenu,
+// } from './Navbar.styles';
+
+// const Navbar = () => {
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   const toggleMenu = () => setIsOpen(!isOpen);
+
+//   return (
+//     <NavbarContainer>
+//       <Logo />
+//       <Hamburger onClick={toggleMenu}>
+//         <span />
+//         <span />
+//         <span />
+//       </Hamburger>
+
+//       <NavLinks>
+//         <NavLinkItem>
+//           <NavLink active href="/home">Home</NavLink>
+//           <HighlightBar />
+//         </NavLinkItem>
+//         <NavLinkItem>
+//           <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+//         </NavLinkItem>
+//         <NavLinkItem>
+//           <NavLink href="/terms">Terms & condition</NavLink>
+//         </NavLinkItem>
+//       </NavLinks>
+
+//       {isOpen && (
+//         <MobileMenu>
+//           <NavLink as={Link} to="/home" onClick={toggleMenu}>Home</NavLink>
+//           <NavLink as={Link} to="/privacy-policy" onClick={toggleMenu}>Privacy Policy</NavLink>
+//           <NavLink as={Link} to="/terms" onClick={toggleMenu}>Terms & condition</NavLink>
+//         </MobileMenu>
+//       )}
+//     </NavbarContainer>
+//   );
+// };
+
+// export default Navbar;
+
+
+// // import React, { useState } from 'react';
+// // import {
+// //   NavbarContainer,
+// //   Logo,
+// //   NavLinks,
+// //   NavLinkItem,
+// //   NavLink,
+// //   HighlightBar,
+// //   Hamburger,
+// //   MobileMenu,
+// // } from './Navbar.styles';
+
+// // import { Link } from 'react-router-dom';
+
+// // const Navbar = () => {
+// //   const [isOpen, setIsOpen] = useState(false);
+
+// //   const toggleMenu = () => setIsOpen(!isOpen);
+
+// //   return (
+// //     <NavbarContainer>
+// //       <Logo />
+// //       <Hamburger onClick={toggleMenu}>
+// //         <span />
+// //         <span />
+// //         <span />
+// //       </Hamburger>
+
+// //       <NavLinks>
+// //         <NavLinkItem>
+// //           <NavLink as={Link} to="/home">Home</NavLink>
+// //           <HighlightBar />
+// //         </NavLinkItem>
+// //         <NavLinkItem>
+// //           <NavLink as={Link} to="/privacy-policy">Privacy Policy</NavLink>
+// //         </NavLinkItem>
+// //         <NavLinkItem>
+// //           <NavLink as={Link} to="">Terms & condition</NavLink>
+// //         </NavLinkItem>
+// //       </NavLinks>
+
+// //       {isOpen && (
+// //         <MobileMenu>
+// //           <NavLink as={Link} to="home" onClick={toggleMenu}>Home</NavLink>
+// //           <NavLink as={Link} to="/privacy-policy" onClick={toggleMenu}>Privacy Policy</NavLink>
+// //           <NavLink as={Link} to="/terms" onClick={toggleMenu}>Terms & condition</NavLink>
+// //         </MobileMenu>
+// //       )}
+// //     </NavbarContainer>
+// //   );
+// // };
+
+// // export default Navbar;
+
+
+
+// Navbar.jsx
+import React, { useState } from 'react';
+import { useLocation, Link } from 'react-router-dom';
+import {
+  NavbarContainer,
+  Logo,
+  NavLinks,
+  NavLinkItem,
+  NavLinkStyled,
+  HighlightBar,
+  Hamburger,
+  MobileMenu
+} from './Navbar.styles';
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  const getActivePath = () => {
+    if (location.pathname === '/' || location.pathname === '/home') return 'home';
+    if (location.pathname.includes('privacy')) return 'privacy';
+    if (location.pathname.includes('terms')) return 'terms';
+    return '';
+  };
+
+  const activePath = getActivePath();
+
+  return (
+    <NavbarContainer variant={activePath}>
+      <Logo />
+      <Hamburger onClick={toggleMenu}>
+        <span />
+        <span />
+        <span />
+      </Hamburger>
+
+      <NavLinks>
+        <NavLinkItem>
+          <NavLinkStyled as={Link} to="/" active={activePath === 'home'}>
+            Home
+          </NavLinkStyled>
+          {activePath === 'home' && <HighlightBar />}
+        </NavLinkItem>
+        <NavLinkItem>
+          <NavLinkStyled as={Link} to="/privacy-policy" active={activePath === 'privacy'}>
+            Privacy Policy
+          </NavLinkStyled>
+          {activePath === 'privacy' && <HighlightBar />}
+        </NavLinkItem>
+        <NavLinkItem>
+          <NavLinkStyled as={Link} to="/terms" active={activePath === 'terms'}>
+            Terms & Conditions
+          </NavLinkStyled>
+          {activePath === 'terms' && <HighlightBar />}
+        </NavLinkItem>
+      </NavLinks>
+                                                                   
+      {isOpen && (
+        <MobileMenu>
+          <NavLinkStyled as={Link} to="/" onClick={toggleMenu}>
+            Home
+          </NavLinkStyled>
+          <NavLinkStyled as={Link} to="/privacy-policy" onClick={toggleMenu}>
+            Privacy Policy
+          </NavLinkStyled>
+          <NavLinkStyled as={Link} to="/terms" onClick={toggleMenu}>
+            Terms & Condition
+          </NavLinkStyled>
+        </MobileMenu>
+      )}
+    </NavbarContainer>
+  );
+};
+
+export default Navbar;
