@@ -26,22 +26,22 @@ const Navbar = () => {
 
       <NavLinks>
         <NavLinkItem>
-          <NavLink active href="#">Home</NavLink>
+          <NavLink active href="/">Home</NavLink>
           <HighlightBar />
         </NavLinkItem>
         <NavLinkItem>
-          <NavLink href="#">Privacy Policy</NavLink>
+          <NavLink href="/privacy-policy">Privacy Policy</NavLink>
         </NavLinkItem>
         <NavLinkItem>
-          <NavLink href="#">Terms & condition</NavLink>
+          <NavLink href="/terms">Terms & condition</NavLink>
         </NavLinkItem>
       </NavLinks>
 
       {isOpen && (
         <MobileMenu>
-          <NavLink href="#">Home</NavLink>
-          <NavLink href="#">Privacy Policy</NavLink>
-          <NavLink href="#">Terms & condition</NavLink>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+          <NavLink href="/terms">Terms & condition</NavLink>
         </MobileMenu>
       )}
     </NavbarContainer>

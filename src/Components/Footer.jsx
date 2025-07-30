@@ -39,10 +39,10 @@ const Footer = () => {
             </StoreButtons>
           </div>
         </LeftSection>
-
+      
         <NavLinks>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/how-it-works">How it works</NavLink>
+          <NavLink to="/#about">About</NavLink>
+          <NavLink to="/#how-it-works">How it works</NavLink>
           <NavLink to="/terms">Terms</NavLink>
           <NavLink to="/privacy">Privacy</NavLink>
         </NavLinks>

@@ -37,7 +37,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} /> Optional
       </Routes>
-      {/* <Footer /> */}
+     
     </Router>
   );
 }
