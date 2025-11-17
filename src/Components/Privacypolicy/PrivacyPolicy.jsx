@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
             <RightContent>
               <Description>
                 We collect information to provide and continually improve
-                our digital agri-trade services to you.
+                our digital agri trade services to you.
               </Description>
 
               <SubHeading>• Personal and Business Information:</SubHeading>
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
               </SubHeading>
               <Description>
                 We employ your information to detect, prevent, and decisively
-                address any fraudulent or illegal activities on our cutting-edge
+                address any fraudulent or illegal activities on our cutting edge
                 digital produce platform.
               </Description>
               <SubHeading>
@@ -227,9 +227,8 @@ const PrivacyPolicy = () => {
             <RightContent>
               <Description>
                 If you have any questions or concerns about this Privacy Policy
-                or your data on Thijara, please contact us at [Your Contact
-                Email Address].
-              </Description>
+                or your data on Thijara, please contact us at Thijaraofficials@gmail.com
+             </Description>
               <Description>
                 <strong>Last Updated: July 19, 2025</strong>
               </Description>

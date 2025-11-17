@@ -1,3 +1,90 @@
+// import React from 'react';
+// import {
+//   FooterContainer,
+//   FooterWrapper,
+//   LeftSection,
+//   Logo,
+//   ContactInfo,
+//   ContactItem,
+//   NavLinks,
+//   NavLink,
+//   RightSection,
+//   SocialIcons,
+//   StoreButtons,
+//   StoreButton,
+//   GetInTouchTitle,
+//   GetInTouchText,
+//   Copyright
+// } from './Footer.styles';
+
+// import { TbMailFilled } from 'react-icons/tb';
+// import { FaPhone } from 'react-icons/fa6';
+// import { FaFacebook, FaInstagram, FaFlickr } from 'react-icons/fa';
+
+// const Footer = () => {
+//   return (
+//     <FooterContainer>
+//       <FooterWrapper>
+//         <LeftSection>
+//           <Logo />
+//           <ContactInfo>
+//             <ContactItem><TbMailFilled />Thijaraofficials@gmail.com</ContactItem>
+//             <ContactItem><FaPhone /> +91 7655736021</ContactItem>
+//           </ContactInfo>
+//           <div>
+//             <GetInTouchTitle>Download the app now!</GetInTouchTitle>
+//             <StoreButtons>
+//               <a
+//                 href="https://play.google.com/store/apps/details?id=com.thijara"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <StoreButton className="google" />
+//               </a>
+
+//               {/* <StoreButton className="apple" /> */}
+//             </StoreButtons>
+//           </div>
+//         </LeftSection>
+
+//         <NavLinks>
+//           <NavLink to="/#about">About</NavLink>
+//           <NavLink to="/#how-it-works">How it works</NavLink>
+//           <NavLink to="/privacy-policy">Privacy</NavLink>
+//           <NavLink to="/terms">Terms</NavLink>
+//         </NavLinks>
+
+//         <RightSection>
+//           <GetInTouchTitle>Get in Touch</GetInTouchTitle>
+//           <GetInTouchText>
+//             Questions or Feedback?<br />
+//             We’d love to hear from you
+//           </GetInTouchText>
+//           <SocialIcons>
+//             <FaFacebook />
+//             <FaInstagram />
+//             <FaFlickr />
+//           </SocialIcons>
+//         </RightSection>
+//       </FooterWrapper>
+//       <Copyright>
+//         © Copyright 2025, Thijara. Designed by{" "}
+//         <a
+//           href="https://tungstonlabs.com/"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="tungston"
+//         >
+//           Tungston Labs
+//         </a>.
+//       </Copyright>
+
+
+//     </FooterContainer>
+//   );
+// };
+
+// export default Footer;
 import React from 'react';
 import {
   FooterContainer,
@@ -9,60 +96,72 @@ import {
   NavLinks,
   NavLink,
   RightSection,
-  SocialIcons,
   StoreButtons,
   StoreButton,
   GetInTouchTitle,
-  GetInTouchText,
   Copyright
 } from './Footer.styles';
 
 import { TbMailFilled } from 'react-icons/tb';
 import { FaPhone } from 'react-icons/fa6';
-import { FaFacebook, FaInstagram, FaFlickr } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
+
+        {/* LEFT SECTION */}
         <LeftSection>
           <Logo />
-          <ContactInfo>
-            <ContactItem><TbMailFilled /> support@ARM-.com</ContactItem>
-            <ContactItem><FaPhone /> +91 7655736021</ContactItem>
-          </ContactInfo>
+
+          {/* REMOVE EMAIL + PHONE HERE (as requested) */}
+
           <div>
             <GetInTouchTitle>Download the app now!</GetInTouchTitle>
             <StoreButtons>
-              <StoreButton className="google" />
-              <StoreButton className="apple" />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.thijara"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <StoreButton className="google" />
+              </a>
             </StoreButtons>
           </div>
         </LeftSection>
-      
+
+        {/* CENTER NAV LINKS */}
         <NavLinks>
           <NavLink to="/#about">About</NavLink>
           <NavLink to="/#how-it-works">How it works</NavLink>
+          <NavLink to="/privacy-policy">Privacy</NavLink>
           <NavLink to="/terms">Terms</NavLink>
-          <NavLink to="/privacy">Privacy</NavLink>
         </NavLinks>
 
+        {/* RIGHT SECTION — NOW CONTAINS EMAIL + PHONE */}
         <RightSection>
-          <GetInTouchTitle>Get in Touch</GetInTouchTitle>
-          <GetInTouchText>
-            Questions or Feedback?<br />
-            We’d love to hear from you
-          </GetInTouchText>
-          <SocialIcons>
-            <FaFacebook />
-            <FaInstagram />
-            <FaFlickr />
-          </SocialIcons>
+          <GetInTouchTitle>Contact Us</GetInTouchTitle>
+
+          <ContactInfo>
+            <ContactItem><TbMailFilled /> thijaraofficials@gmail.com</ContactItem>
+            <ContactItem><FaPhone /> +91 7655736021</ContactItem>
+          </ContactInfo>
         </RightSection>
+
       </FooterWrapper>
+
       <Copyright>
-        © Copyright 2024, Thijara. Designed by <span>Tungston Labs.</span>
+        © Copyright 2025, Thijara. Designed by{" "}
+        <a
+          href="https://tungstonlabs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tungston"
+        >
+          Tungston Labs
+        </a>.
       </Copyright>
+
     </FooterContainer>
   );
 };

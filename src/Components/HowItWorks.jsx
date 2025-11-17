@@ -44,7 +44,7 @@ const HowItWorks = () => {
             </CardIcon>
             <CardTitle>Direct WhatsApp Communication</CardTitle>
             <CardText>
-              Interested buyers contact you directly on WhatsApp for instant communication and smooth deal-making—fast, transparent, and familiar for regional traders.
+              Interested buyers contact you directly on WhatsApp for instant communication and smooth deal making fast, transparent, and familiar for regional traders.
             </CardText>
           </Card>
 

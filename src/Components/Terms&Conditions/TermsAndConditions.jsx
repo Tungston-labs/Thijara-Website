@@ -28,8 +28,7 @@ const TermsAndConditions = () => {
 
           <Description>
             Please read these Terms and Conditions ("Terms") carefully before
-            using the Thijara mobile application (the "App") operated by [Your
-            Company Name/Thijara], the leading fresh produce marketplace and
+            using the Thijara mobile application (the "App") operated by Tungston labs. , the leading fresh produce marketplace and
             digital platform across the Middle East.
           </Description>
 
@@ -187,7 +186,7 @@ const TermsAndConditions = () => {
             </div>
             <RightContent>
               <Description>
-                Thijara acts solely as a cutting-edge digital platform to
+                Thijara acts solely as a cutting edge digital platform to
                 connect buyers and sellers of fruits and vegetables. We
                 expressly do not:
               </Description>
@@ -224,7 +223,7 @@ const TermsAndConditions = () => {
                 implied,including but not limited to warranties of
                 merchantability, fitness for a particular purpose, or
                 non-infringement. Thijara does not warrant that the App will be
-                uninterrupted, error-free, or perpetually secure for online
+                uninterrupted, error free, or perpetually secure for online
                 agricultural trade.
               </Description>
             </RightContent>

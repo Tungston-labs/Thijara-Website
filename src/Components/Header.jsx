@@ -7,7 +7,7 @@ import {
   Description,
   ButtonGroup,
   GooglePlay,
-  AppStore,
+  // AppStore,
   PhoneImageWrapper,
   PhoneImage
 } from './Header.styles';
@@ -23,8 +23,15 @@ const Header = () => {
           </Tagline>
           <Description>Download the app now!</Description>
           <ButtonGroup>
-            <GooglePlay />
-            <AppStore />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.thijara"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GooglePlay />
+            </a>
+
+            {/* <AppStore /> */}
           </ButtonGroup>
         </div>
         <PhoneImageWrapper>

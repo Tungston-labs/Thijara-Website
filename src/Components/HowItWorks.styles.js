@@ -39,7 +39,7 @@ export const Subtitle = styled.h3`
 font-family: "Segoe UI", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: #768F45;
+  color: #c9e57d;
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
@@ -91,7 +91,7 @@ export const CardTitle = styled.h4`
   font-family: "Segoe UI", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #768F45;
+  color: #2f4702;
   margin-bottom: 10px;
 `;
 
