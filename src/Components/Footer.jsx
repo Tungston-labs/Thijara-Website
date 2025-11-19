@@ -99,7 +99,8 @@ import {
   StoreButtons,
   StoreButton,
   GetInTouchTitle,
-  Copyright
+  Copyright,
+  GetInTouchTitles,
 } from './Footer.styles';
 
 import { TbMailFilled } from 'react-icons/tb';
@@ -117,7 +118,7 @@ const Footer = () => {
           {/* REMOVE EMAIL + PHONE HERE (as requested) */}
 
           <div>
-            <GetInTouchTitle>Download the app now!</GetInTouchTitle>
+            <GetInTouchTitles>Download the app now!</GetInTouchTitles>
             <StoreButtons>
               <a
                 href="https://play.google.com/store/apps/details?id=com.thijara"
@@ -141,7 +142,6 @@ const Footer = () => {
         {/* RIGHT SECTION — NOW CONTAINS EMAIL + PHONE */}
         <RightSection>
           <GetInTouchTitle>Contact Us</GetInTouchTitle>
-
           <ContactInfo>
             <ContactItem><TbMailFilled /> thijaraofficials@gmail.com</ContactItem>
             <ContactItem><FaPhone /> +91 7655736021</ContactItem>
