@@ -16,23 +16,21 @@ export const AboutContainer = styled.section`
 `;
 
 export const TitleRow = styled.div`
-  position: absolute;
-  top: 20px;
-  left: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 
   @media (max-width: 768px) {
-    position: static;
-    text-align: center;
     margin-bottom: 2rem;
   }
 `;
 
 export const Title = styled.h2`
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  border-bottom: 2px solid #000;
-  display: inline-block;
+  text-align: center;  /* extra safety */
 
   @media (max-width: 768px) {
     font-size: 1.6rem;
@@ -111,7 +109,7 @@ export const ImageWrapper = styled.div`
 
 export const PhoneImage = styled.img`
   width: 100%;
-  max-width: 250px;
+  max-width: 260px;
   display: block;
   margin: auto;
 `;

@@ -114,9 +114,6 @@ const Footer = () => {
         {/* LEFT SECTION */}
         <LeftSection>
           <Logo />
-
-          {/* REMOVE EMAIL + PHONE HERE (as requested) */}
-
           <div>
             <GetInTouchTitles>Download the app now!</GetInTouchTitles>
             <StoreButtons>
