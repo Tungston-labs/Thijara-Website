@@ -10,6 +10,7 @@ import About from './Components/About';
 import HowItWorks from './Components/HowItWorks';
 import PrivacyPolicy from './Components/Privacypolicy/PrivacyPolicy'; // <-- Your component
 import TermsAndConditions from './Components/Terms&Conditions/TermsAndConditions';
+import AccountDeletionPage from './Components/AccountDelete/AccountDelete';
 
 function HomePage() {
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} /> Optional
+                <Route path="/account-delete" element={<AccountDeletionPage />} /> 
+
       </Routes>
      
     </Router>
