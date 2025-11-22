@@ -27,8 +27,8 @@ const TermsAndConditions = () => {
           </Heading>
 
           <Description>
-            Please read these Terms and Conditions ("Terms") carefully before
-            using the Thijara mobile application (the "App") operated by Tungston labs. , the leading fresh produce marketplace and
+            Please read these Terms and Conditions carefully before
+            using the Thijara mobile application operated by Tungston labs, the leading fresh produce marketplace and
             digital platform across the Middle East.
           </Description>
 
@@ -65,13 +65,9 @@ const TermsAndConditions = () => {
               </Description>
               <SubHeading>• Rigorous Seller Verification:</SubHeading>
               <Description>
-                Wholesale produce sellers are strictly required to provide
-                valid trade licenses and other necessary business registration
-                details (e.g., commercial permits, tax registration) for
-                thorough verification purposes. Thijara reserves the unequivocal
-                right to suspend or terminate accounts that provide
-                false, misleading, or unverified information, thereby ensuring
-                a trusted and secure produce market for all participants.
+                Wholesale produce sellers must provide valid trade licenses and other important business details 
+                (e.g: commercial permits, tax registration) for verification. Thijara has the right to suspend or
+                 close accounts that give false or unverified information, ensuring a safe and trusted produce market for everyone.
               </Description>
               <SubHeading>• Account Security: </SubHeading>
               <Description>

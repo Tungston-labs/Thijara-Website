@@ -37,29 +37,23 @@ const PrivacyPolicy = () => {
               <SubHeading>• Personal and Business Information:</SubHeading>
 
               <Description>
-                When you register on Thijara, we meticulously collect personal
-                details such as your name, comprehensive contact information
-                (verified phone number, business email address), company
-                name, and crucial trade license details for regulatory
-                compliance and verification.
+                When you register on Thijara, we collect personal details, including your name, 
+                verified phone number, business email, company name, and essential trade license information, 
+                to ensure regulatory compliance and account verification.
               </Description>
 
               <SubHeading>• Product Listing Information:</SubHeading>
               <Description>
-                If you are a produce seller, we collect specific details about
-                the fresh produce you list, including fruit/vegetable type,
-                available quantity, precise origin (e.g., country and region of
-                harvest), packaging type, and wholesale pricing details.
+                If you are a produce seller, we collect details about the fresh produce you list, 
+                including type of fruit or vegetable, available quantity, origin 
+                (country and region), packaging, and wholesale pricing.
               </Description>
 
               <SubHeading>• App Usage Data:</SubHeading>
               <Description>
-                We collect information on how you access and interact with the
-                App, such as your interactions with produce listings, search
-                queries (e.g., "wholesale dates UAE," "fresh tomato suppliers
-                Saudi Arabia"),and direct WhatsApp communication patterns. This
-                helps us optimize your online produce buying and selling
-                experience.
+                We collect information on how you use the App, such as which produce listings you view, what you search 
+                for (e.g: "fresh tomatoes," "wholesale bananas"), the orders you place, and your WhatsApp messages through 
+                the App. This helps us make your buying and selling experience smoother and easier.
               </Description>
 
               <SubHeading>• Device Information:</SubHeading>

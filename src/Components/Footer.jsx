@@ -140,8 +140,13 @@ const Footer = () => {
         <RightSection>
           <GetInTouchTitle>Contact Us</GetInTouchTitle>
           <ContactInfo>
-            <ContactItem><TbMailFilled /> thijaraofficials@gmail.com</ContactItem>
-            <ContactItem><FaPhone /> +91 7655736021</ContactItem>
+            <ContactItem>
+              <TbMailFilled />
+              <a href="mailto:thijaraofficials@gmail.com">
+                thijaraofficials@gmail.com
+              </a>
+            </ContactItem>
+            <ContactItem><FaPhone />+971 55 573 6021</ContactItem>
           </ContactInfo>
         </RightSection>
 

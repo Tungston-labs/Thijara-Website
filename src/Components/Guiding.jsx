@@ -34,7 +34,7 @@ const Guiding = () => {
             <IconRight><BsFillArrowUpRightCircleFill size={22} color="#2A6135" /></IconRight>
           </CardHeader>
           <CardText>
-            Our mission is to empower fruit and vegetable traders and fresh produce buyers in the Middle East by providing the region's most efficient, secure, and direct digital platform that revolutionizes produce sourcing, streamlines agricultural sales, and fosters unprecedented growth and connectivity within the Middle East fresh produce market.
+            Our mission is to help fruit and vegetable traders and buyers in the Middle East by offering a safe, fast, and easy-to-use digital platform. We make sourcing fresh produce simple, improve agricultural sales, and create better connections to support growth in the region’s fresh produce market.
           </CardText>
         </Card>
 
@@ -46,7 +46,7 @@ const Guiding = () => {
             <IconRight><BsFillArrowUpRightCircleFill size={22} color="#2A6135" /></IconRight>
           </CardHeader>
           <CardText>
-            Our vision is to become the undisputed leading digital marketplace for fruits and vegetables in the Middle East, setting the global standard for seamless B2B produce trade, unparalleled transparency, and unwavering trust within the entire agricultural supply chain, transforming how fresh produce moves across the region.
+           Our vision is to make trading fruits and vegetables in the Middle East easy, fast, and reliable. We want every trader to grow their business with confidence and connect smoothly with buyers across the region. We aim to create a trusted marketplace where every trader can thrive and the fresh produce trade becomes seamless for all.
           </CardText>
         </Card>
       </CardContainer>

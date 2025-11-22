@@ -24,18 +24,19 @@ const About = () => {
         </ImageWrapper>
 
         <div>
-          <Heading>Thijara – Smarter Trade for Fresh Produce</Heading>
+          <Heading>Thijara-Your Easy Way to Trade Fresh Produce</Heading>
 
           <Intro>
             Thijara – Smarter Trade for Fresh Produce <br />
-            The Middle East’s first B2B platform for fruits and vegetables
+            The Middle East’s first trading platform for fruits and vegetables
           </Intro>
 
           <BulletList>
             <li>Connects wholesalers directly with verified buyers</li>
             <li>Enables fast, secure, and transparent transactions</li>
-            <li>Simplifies and digitizes the produce supply chain</li>
+            <li>Expand customer base across the region</li>
             <li>Built to empower and grow the regional agri-trade network</li>
+            <li>Avoid middlemen and unnecessary delays</li>
           </BulletList>
         </div>
       </ContentWrapper>

@@ -24,7 +24,8 @@ const HowItWorks = () => {
         <Title>How Thijara Works</Title>
         <Subtitle>Your Seamless Online Produce Trading Journey</Subtitle>
         <Description>
-          Thijara simplifies buying and selling fresh fruits and vegetables online across the Gulf region, making your produce sourcing and sales process straightforward and efficient.
+          Connecting Buyers and Sellers of Fresh Produce
+          Thijara makes buying and selling fresh fruits and vegetables online across the region easy, fast, and hassle-free for everyone.
         </Description>
 
         <CardsWrapper>
@@ -34,18 +35,16 @@ const HowItWorks = () => {
             </CardIcon>
             <CardTitle>Verified & Trusted Sellers</CardTitle>
             <CardText>
-              All sellers must submit valid trade licenses and business documents. This strict verification ensures a secure, trusted trading environment on Thijara.
-            </CardText>
+              All sellers on Thijara go through a strict verification process to ensure authenticity. This guarantees that buyers receive fresh, high quality produce. Every transaction is secure, reliable, and from trusted sources.          </CardText>
           </Card>
 
           <Card>
             <CardIcon>
               <LuMessagesSquare size={36} />
             </CardIcon>
-            <CardTitle>Direct WhatsApp Communication</CardTitle>
+            <CardTitle>Direct Communication</CardTitle>
             <CardText>
-              Interested buyers contact you directly on WhatsApp for instant communication and smooth deal making fast, transparent, and familiar for regional traders.
-            </CardText>
+              Connect instantly with buyers or sellers via WhatsApp to get quick answers, discuss orders, and negotiate deals easily. This direct communication ensures smooth, efficient, and hassle free trading for everyone on the platform.  </CardText>
           </Card>
 
           <Card>
@@ -54,18 +53,16 @@ const HowItWorks = () => {
             </CardIcon>
             <CardTitle>Efficient Buyer Discovery</CardTitle>
             <CardText>
-              Buyers can browse a wide range of produce from trusted Middle Eastern sellers using smart search and filters—ideal for hotels, restaurants, and markets across Dubai, Riyadh, Doha, and more.
-            </CardText>
+             Handle orders smoothly from start to finish with streamlined processes. Save time and reduce errors in every transaction. Ensure your wholesale trading is faster, more organized, and hassle free.          </CardText>
           </Card>
 
           <Card>
             <CardIcon>
               <FaClipboardList size={36} />
             </CardIcon>
-            <CardTitle>List Your Wholesale Produce</CardTitle>
+            <CardTitle>Connect with Verified Buyers</CardTitle>
             <CardText>
-              As a verified seller, you can quickly list fresh fruits and vegetables with key details like type (e.g., seasonal, organic), quantity, harvest origin (e.g., Egypt, Jordan), and packaging. High-quality listings attract serious B2B buyers.
-            </CardText>
+             Easily list your fruits, vegetables, and fresh produce to reach verified buyers instantly. By showcasing your products with clear images, you can highlight their quality and attract more buyers.          </CardText>
           </Card>
         </CardsWrapper>
       </Content>
